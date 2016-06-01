@@ -7,6 +7,7 @@ project(cwru_srv)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   geometry_msgs
+  cwru_msgs
   nav_msgs
   roscpp
   std_msgs
@@ -67,6 +68,7 @@ FILES simple_bool_service_message.srv
   IM_node_service_message.srv
   path_service_message.srv
   point_list_service.srv
+  point2d_list_service.srv
   )
 
 ## Generate actions in the 'action' folder
@@ -82,6 +84,7 @@ generate_messages(
   std_msgs  
   geometry_msgs
   nav_msgs
+  cwru_msgs
 )
 
 ###################################

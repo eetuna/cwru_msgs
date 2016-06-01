@@ -1,0 +1,7 @@
+#This is meant to be a call and response where the request is a queary bool and the response is a list of stamped points
+
+#Query bool, (place holder)
+bool query
+---
+#The response is a list of points in 2d space.
+cwru_msgs/point2d_list ptList
