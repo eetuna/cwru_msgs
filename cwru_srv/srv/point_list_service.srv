@@ -2,6 +2,6 @@
 
 #Query bool, (place holder)
 bool query
---
+---
 #The response is associated with a time stamp, a frame, and a seq #.
 geometry_msgs/PolygonStamped ptList
