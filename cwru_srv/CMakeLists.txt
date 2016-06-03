@@ -69,6 +69,8 @@ FILES simple_bool_service_message.srv
   path_service_message.srv
   point_list_service.srv
   point2d_list_service.srv
+  get_quaternion.srv
+  set_quaternion.srv
   )
 
 ## Generate actions in the 'action' folder

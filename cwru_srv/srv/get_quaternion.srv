@@ -1,0 +1,7 @@
+#This service is to get a quaternion:
+
+#query is just a bool.
+bool query
+---
+#The reply is just a quaternion
+geometry_msgs/Quaternion quatQuery
